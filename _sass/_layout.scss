@@ -1,5 +1,6 @@
 html,body {
 	-moz-osx-font-smoothing: grayscale;
+    background-color: $black-color;
 }
 
 /**
@@ -7,7 +8,7 @@ html,body {
  */
 .header {
     padding: 50px 20px 40px;
-    background-color: #515865;
+    background-color: $black-color;
 }
 
 .header-container {

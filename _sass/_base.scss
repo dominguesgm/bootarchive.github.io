@@ -23,8 +23,6 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -254,7 +252,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #404040;
+    color: $header-color;
     line-height: 36px;
 }
 h1 {
