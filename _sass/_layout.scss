@@ -9,11 +9,13 @@ html,body {
 .header {
     padding: 50px 20px 40px;
     background-color: $black-color;
+    
 }
 
 .header-container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0px auto;
+    border-bottom: dashed 2px $grey-color;
 }
 
 .nav {
@@ -182,11 +184,23 @@ li {
 /**
  * Footer
  */
+
 .footer {
-    font-size: 11px;
-    text-align: center;
-	color: #666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $black-color;
 }
+.footer-center {
+    width: 800px;
+    height:40px;
+    border-top: dashed 2px $grey-color;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+    font-size: 11px;
+}
+
 
 #gotop {
     position: fixed;
